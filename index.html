@@ -35,6 +35,87 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+
+
+        h1 {
+          text-align: center;
+          font-family: Tahoma, Arial, sans-serif;
+          color: #06D85F;
+          margin: 80px 0;
+        }
+        .overlay {
+          position: fixed;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          z-index: 10;
+          background: rgba(0, 0, 0, 0.7);
+          transition: opacity 500ms;
+          visibility: hidden;
+          opacity: 0;
+        }
+        .overlay:target {
+          visibility: visible;
+          opacity: 1;
+        }
+    
+        .popup {
+          margin: 110px auto;
+          padding: 6px;
+          background: #fff;
+          border-radius: 5px;
+          width: 80%;
+          position: relative;
+          z-index: 3;
+          transition: all 5s ease-in-out;
+        }
+    
+        .popup h2 {
+          margin-top: 0;
+          color: #333;
+          font-family: Tahoma, Arial, sans-serif;
+        }
+        .popup .close {
+          position: absolute;
+          top: 20px;
+          right: 30px;
+          transition: all 200ms;
+          font-size: 30px;
+          font-weight: bold;
+          text-decoration: none;
+          color: #333;
+        }
+        .popup .close:hover {
+          color: #06D85F;
+        }
+        .popup .content {
+          max-height: 30%;
+          overflow: auto;
+        }
+    
+        @media screen and (max-width: 700px){
+          .box{
+            width: 70%;
+          }
+          .popup{
+            width: 90%;
+            margin: 20px auto;
+          }
+        }
+    
+        @media screen and (max-width: 700px){
+          .container{
+            width: 100%;
+          }
+          .sd{
+            padding-right: 40px;
+            margin: 20px auto;
+          }
+        }
+    
+        </style>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
@@ -77,16 +158,85 @@
       <div class="justify-content-center">
         <a href="#"><img src="images/Samar2k19.png" alt="December 13-16, 2k19" border="0"></a>
       </div>
-          <p><a href="campusambessadar.html" class="btn btn-secondary py-3 px-4">Campus Ambassador</a>
-            <a href="games.html#popup00" class="btn btn-warning py-3 px-4">Mega Events</a>
-          <a href="games.html#register" class="btn btn-primary py-3 px-4">Registration</a> </p>
-          <img style="width:40px;height:20px;" src="images/new.gif"><a href="https://forms.gle/xsRyVyPx6pMXaEHM7" target="_blank" style="color:rgb(7, 7, 7);font-size:20px;" class="btn btn-warning py-3 px-4"><b>Executive-Form</b></a>
-          </div>
+          <p><a href="campusambessadar.html" class="btn btn-secondary py-3 px-4">Campus Ambassador</a></p>
+            <!-- <a href="games.html#popup00" class="btn btn-warning py-3 px-4">Mega Events</a>
+          <a href="games.html#register" class="btn btn-primary py-3 px-4">Registration</a> </p> -->
+          <img style="width:40px;height:20px;" src="images/new.gif">
+          <br>
+          <a href="#popup0"  style="color:rgb(7, 7, 7);font-size:19px;" class="btn btn-warning py-3 px-4"><b>Selected-Coordinators- 2021</b></a>
+           
+          <!-- <a href="#popup0" class="btn btn-primary py-3 px-4">Results</a> </p> -->
+
+
+
+        </div>
         </div>
       </div>
     </div>
     </div>
-   </div>
+   </div> 
+
+   <div id="popup0" class="overlay" style="padding-top: 30px;text-align: center;overflow:scroll;">
+    <div class="popup" style="font-size: 2em;font-weight:bold;background-image: url('campus amb/img/h1.jpg'); background-size: cover;">
+        <img style="width:40px;height:20px;" src="images/new.gif"><h4 style="font-weight: bold;font-size:20px;color:white;text-shadow: 2px 2px #1C508F;">Coordinators - PI - 2021</h4>
+      <a class="close" style="font-weight: bold;color: black;font-size: 1.5em;opacity: 1;" href="index.html">&times;</a>
+      <div class="content" style="font-size: 7px;">
+         
+      <div class="content" style="color:white;text-shadow: 2px 2px rgb(109, 4, 4);">
+        <ul style="list-style-type:none;font-size: 20px;">
+          <li>Results Will be released SOON - 8<sup>th</sup> March</li> 
+        </ul>
+      </div>
+   
+    </div>
+  </div> 
+
+
+   <div id="" class="overlay" style="padding-top: 30px;text-align: center;overflow:scroll;">
+    <div class="popup" style="font-size: 2em;font-weight:bold;background-image: url('campus amb/img/h1.jpg'); background-size: cover;">
+        <img style="width:40px;height:20px;" src="images/new.gif"><h4 class="text-warning ftco-animate" style="font-family:chiller;font-weight: bold;font-size:1em;">Coordinators-2021</h4>
+      <a class="close" style="font-weight: bold;color: black;font-size: 1.5em;opacity: 1;" href="nw.html">&times;</a>
+      <div class="content" style="font-size: 7px;">
+          
+        <div class="buttons"> 
+            <u><h3 style="font-family:chiller;color:white; font-weight: bold;">WEB-FIELD</h3></u>
+            <button class="btn-hover color-1">Abc - CSE 2nd year</button>
+            <button class="btn-hover color-2">Abc KUMAR - Mech 2nd year</button>
+            <button class="btn-hover color-3">BUTTON</button>
+            <button class="btn-hover color-4">BUTTON</button>  
+
+            <br><br><br>
+            <h3 style="font-family:chiller;color:white; font-weight: bold;">Content-Writer</h3>
+            <button class="btn-hover color-1">AJAY KUMAR - CSE 2nd year</button>
+            <button class="btn-hover color-2">BUTTON</button>
+            <button class="btn-hover color-3">BUTTON</button>
+            <button class="btn-hover color-4">BUTTON</button>
+            <button class="btn-hover color-5">BUTTON</button>
+            <button class="btn-hover color-6">BUTTON</button>
+            <button class="btn-hover color-7">BUTTON</button>
+            <button class="btn-hover color-9">BUTTON</button>
+            <button class="btn-hover color-10">BUTTON</button>
+            <button class="btn-hover color-11">BUTTON</button>
+            <button class="btn-hover color-8">BUTTON</button>
+
+            <br><br><br>
+            <h3 style="font-family:chiller;color:white; font-weight: bold;font-size: 25px;">Sports-Coordinators</h3>
+            <button class="btn-hover color-1">AJAY KUMAR - CSE 2nd year</button>
+            <button class="btn-hover color-2">Abc KUMAR - Mech 2nd year</button>
+            <button class="btn-hover color-3">BUTTON</button>
+            <button class="btn-hover color-4">BUTTON</button>
+            <button class="btn-hover color-5">BUTTON</button>
+            <button class="btn-hover color-6">BUTTON</button> 
+
+        </div>
+        
+
+
+      </div>
+    </div>
+  </div>
+
+
     <div class="carousel-item">
     <div class="hero-wrap js-fullheight" style="background-image: url('images/bg_3.jpg');">
       <div class="overlay"></div>
