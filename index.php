@@ -1,3 +1,3 @@
 <?php  
-  header('Location: index.html#popup0');
+  header('Location: index.html');
 ?>
